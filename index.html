@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Toboolist</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/master.css">
+  </head>
+  <body>
+    <!-- Navbar con logo -->
+    <div class="navbar">
+      <img class="logo" src="assets/img/Logo.png" alt="Logo Toboolist">
+      <span class="text-logo">Toboolist</span>
+    </div>
+    <!-- Sviluppo To Do List -->
+    <div class="background">
+      <div class="container">
+        <!-- Button -->
+        <div class="button-menu">
+          <input type="button" value="Add Task" class="button blue">
+          <input type="button" value="Add Section" disabled="" class="button gray">
+        </div>
+        <hr>
+        <!-- Inizio To Do List -->
+        <div class="list">
+          <!-- New Task -->
+          <ul>
+            <li class="title">New Task
+              <ul>
+                <li class="flag">Quarterly Newsletter
+                  <div class="box-category lightblue">Editorial</div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Today -->
+          <ul>
+            <li class="title">Today
+              <ul>
+                <li class="flag">Recruiting blog post
+                  <div class="box-category lightblue">Editorial</div>
+                </li>
+                <li class="flag">Mobile app launch
+                  <div class="box-category purple">Q1 Goals</div>
+                </li>
+                <li class="cross">Interview John H.
+                  <div class="box-category aquagreen">Recruiting</div>
+                </li>
+                <li class="flag">Summit update to mobile storefront
+                  <div class="box-category orange">Mobile</div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Upcoming -->
+          <ul>
+            <li class="title">Upcoming
+              <ul>
+                <li class="cross">Schedule meeting with Alex</li>
+                <li class="flag">Homepage refresh
+                  <div class="box-category rose">Website</div>
+                </li>
+                <li class="flag">Onboard new Sales team members
+                  <div class="box-category green">Sales</div>
+                </li>
+                <li class="flag">Review editorial calendar
+                  <div class="box-category lightblue">Editorial</div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
